@@ -11,12 +11,7 @@
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
-		"svelte": "^3.46.0"
+		"svelte": "^3.46.1"
 	},
-	"type": "module",
-	"dependencies": {
-		"@fontsource/fira-mono": "^4.5.0",
-		"cookie": "^0.4.1",
-		"pouchdb": "^7.3.0"
-	}
+	"type": "module"
 }
