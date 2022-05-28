@@ -1,14 +1,27 @@
 <title>Enigma | Signup</title>
 
-<section class="hero">
+<section class="hero singlton">
+    <div class="left--aligned">
+        <img src="image/abs_pattern.png" alt="">
+    </div>
     <div class="container">
-        <h1>Hi, friend</h1> <img src="/frontend/static/image/hello.svg" alt="img not loaded">
-        <p class="big">To be polite and know U better, please, itroduce yourself</p>
-        <form action="/signup" method="post">
-            <input type="text" placeholder="Login">
-            <input type="password" placeholder="Password">
-            <input type="password" placeholder="Password">
-            <input type="submit">
-        </form>
+        <div class="two-blocks c">
+            <div class="block">
+                <div class="inline-logo">
+                    <img src="image/logo.svg" alt="Logo not loaded"> enigma
+                </div>
+            </div>
+            <div class="block">
+                <form action="/signup" method="post">
+                    <input type="text" placeholder="Login">
+                    <input type="password" placeholder="Password">
+                    <input type="password" placeholder="Password">
+                    <input type="submit"  value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="blue_wave">
+        <img src="image/blue_wave.png" alt="">
     </div>
 </section>

@@ -1,56 +1,80 @@
 <title>Enigma | Market</title>
-<section class="hat">
-    <img src="" alt="">
+<section class="index header">
+    <div class="header--card">
+        <img src="image/header-pattern.svg" alt="">
+    </div>
+    <div class="container card">
+        <h1>Market</h1>
+    </div>
 </section>
-<section>
+<section class="over">
     <div class="container">
-        <h2>Last trades</h2>
-        <div class="scrollar-wrap">
+        <div class="scrollar-wrap b">
+            <div class="scrollar">
             <div class="coin-badge-wrap">
                 <div class="coin-nam-wrap">
                     <div class="coin-logo">
-                        <img src="" alt="">
+                        <img src="image/bitcoin.svg" alt="">
                     </div>
-                    <p>Coin name</p>
+                    <p>BTC</p>
                 </div>
                 <div class="breaker"/>
-                <p class="costage--total"></p>
+                <p class="costage--total">
+                    0000.0000
+                </p>
                 <div class="costage--income-wrap">
                     <div class="income--wrap">
-                        <img src="" alt="">
+                        <img src="image/up.svg" alt="None?">
                     </div>
-                    <p>Income + %</p>
+                    <p>25 %</p>
                 </div>
                 <p class="costage--plus">
-
+                    + 000.000
+                </p>
+            </div>
+            <div class="coin-badge-wrap">
+                <div class="coin-nam-wrap">
+                    <div class="coin-logo">
+                        <img src="image/bitcoin.svg" alt="">
+                    </div>
+                    <p>BTC</p>
+                </div>
+                <div class="breaker"/>
+                <p class="costage--total">
+                    0000.0000
+                </p>
+                <div class="costage--income-wrap">
+                    <div class="income--wrap">
+                        <img src="image/up.svg" alt="None?">
+                    </div>
+                    <p>25 %</p>
+                </div>
+                <p class="costage--plus">
+                    + 000.000
+                </p>
+            </div>
+            <div class="coin-badge-wrap">
+                <div class="coin-nam-wrap">
+                    <div class="coin-logo">
+                        <img src="image/bitcoin.svg" alt="">
+                    </div>
+                    <p>BTC</p>
+                </div>
+                <div class="breaker"/>
+                <p class="costage--total">
+                    0000.0000
+                </p>
+                <div class="costage--income-wrap">
+                    <div class="income--wrap">
+                        <img src="image/up.svg" alt="None?">
+                    </div>
+                    <p>25 %</p>
+                </div>
+                <p class="costage--plus">
+                    + 000.000
                 </p>
             </div>
         </div>
-    </div>
-</section>
-<section>
-    <div class="container">
-        <h2>Top for 24hs</h2>
-        <div class="scrollar-wrap">
-            <div class="coin-badge-wrap">
-                <div class="coin-nam-wrap">
-                    <div class="coin-logo">
-                        <img src="" alt="">
-                    </div>
-                    <p>Coin name</p>
-                </div>
-                <div class="breaker"/>
-                <p class="costage--total"></p>
-                <div class="costage--income-wrap">
-                    <div class="income--wrap">
-                        <img src="" alt="">
-                    </div>
-                    <p>Income + %</p>
-                </div>
-                <p class="costage--plus">
-
-                </p>
-            </div>
         </div>
     </div>
 </section>
@@ -61,20 +85,43 @@
             <div class="coin-badge-wrap">
                 <div class="coin-nam-wrap">
                     <div class="coin-logo">
-                        <img src="" alt="">
+                        <img src="image/bitcoin.svg" alt="">
                     </div>
-                    <p>Coin name</p>
+                    <p>BTC</p>
                 </div>
                 <div class="breaker"/>
-                <p class="costage--total"></p>
+                <p class="costage--total">
+                    0000.0000
+                </p>
                 <div class="costage--income-wrap">
                     <div class="income--wrap">
-                        <img src="" alt="">
+                        <img src="image/up.svg" alt="None?">
                     </div>
-                    <p>Income + %</p>
+                    <p>25 %</p>
                 </div>
                 <p class="costage--plus">
-
+                    + 000.000
+                </p>
+            </div>
+            <div class="coin-badge-wrap">
+                <div class="coin-nam-wrap">
+                    <div class="coin-logo">
+                        <img src="image/bitcoin.svg" alt="">
+                    </div>
+                    <p>BTC</p>
+                </div>
+                <div class="breaker"/>
+                <p class="costage--total">
+                    0000.0000
+                </p>
+                <div class="costage--income-wrap">
+                    <div class="income--wrap">
+                        <img src="image/up.svg" alt="None?">
+                    </div>
+                    <p>25 %</p>
+                </div>
+                <p class="costage--plus">
+                    + 000.000
                 </p>
             </div>
         </div>

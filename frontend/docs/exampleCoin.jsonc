@@ -1,0 +1,15 @@
+{
+    // PouchDB
+    "_id": 20,
+    "doc": {
+        "name": "BTC",
+        "state": 1,
+        "percent": -25,
+        "timestamps": [
+            {
+                "date": "Date",
+                "price": 200
+            }
+        ]
+    }
+}
