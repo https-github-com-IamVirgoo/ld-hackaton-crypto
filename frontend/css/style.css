@@ -1,58 +1,61 @@
 body {
+  overflow-x: hidden;
   font-family: "Comfortaa", cursive;
   margin: 0 !important;
   letter-spacing: 1.2px;
   background-color: #2C2D44; }
 
 @media screen and (max-width: 420px) {
-  .hero {
+  .hero-section {
     color: #fff; }
-    .hero .wrapper--logo {
+    .hero-section .wrapper--logo {
       position: absolute;
       top: 0;
       left: 0;
       z-index: -1; }
-    .hero .wrapper--blops-1 {
+    .hero-section .wrapper--blop-1 {
       position: absolute;
       top: 0;
       right: 0;
       z-index: -1; }
-    .hero .wrapper--blops-2 {
+    .hero-section .wrapper--blop-2 {
       position: absolute;
       left: -110px;
       z-index: -1; }
-    .hero .container {
-      padding-right: 20px;
+    .hero-section .container {
       padding-left: 20px;
+      padding-right: 20px;
       padding-top: 330px; }
-      .hero .container .logo {
-        margin-left: -40px;
+      .hero-section .container .logo {
         display: flex;
         justify-content: center;
-        align-items: center; }
-        .hero .container .logo .logo-text {
+        align-items: center;
+        margin-left: -40px; }
+        .hero-section .container .logo .logo--text {
           font-size: 60px; }
-      .hero .container .description {
+      .hero-section .container .description {
         font-size: 45px;
         margin: 0;
         padding-bottom: 135px; }
-    .hero .paragraph {
+    .hero-section .paragraph {
       font-size: 25px;
       position: absolute;
       padding-top: 220px;
       left: 50%;
       margin-right: -50%;
       transform: translate(-50%, -50%); }
-    .hero .info-container {
-      padding-right: 20px;
+
+  .info-section {
+    color: #fff; }
+    .info-section .container {
       padding-left: 20px;
+      padding-right: 20px;
       padding-top: 320px; }
-      .hero .info-container .info-header {
+      .info-section .container .title {
         font-size: 60px; }
-      .hero .info-container .info-description-1,
-      .hero .info-container .info-description-2 {
+      .info-section .container .description {
         font-size: 25px; }
-      .hero .info-container .btn {
+      .info-section .container .btn {
         width: 100%;
         display: flex;
         justify-content: flex-start;
@@ -67,42 +70,49 @@ body {
         padding-top: 17px;
         padding-bottom: 17px;
         line-height: 27px; }
-    .hero .wrapper-blops-3 {
+    .info-section .wrapper--blop-3 {
       position: absolute;
-      left: 165px; }
-    .hero .wrapper-blops-4 {
-      position: absolute;
+      left: 163px; }
+    .info-section .wrapper--blop-4 {
       padding-top: 200px;
-      left: 230px;
-      z-index: -1; }
-    .hero .wrapper-blops-5 {
       position: absolute;
       z-index: -1;
+      left: 225px; }
+    .info-section .wrapper--blop-5 {
       padding-top: 450px;
+      position: absolute;
+      z-index: -1;
       left: -120px; }
-    .hero .lower-info-container {
+
+  .lower-section {
+    color: #fff; }
+    .lower-section .container {
       padding-left: 20px;
       padding-right: 20px;
       padding-top: 540px; }
-      .hero .lower-info-container .lower-info-header {
+      .lower-section .container .title {
         font-size: 60px; }
-      .hero .lower-info-container .lower-info-desc {
+      .lower-section .container .description {
         font-size: 25px; }
-    .hero .block {
-      width: 315px;
-      height: 680px;
-      background: linear-gradient(169.11deg, #4856CE 3.51%, #30314B 100%);
-      border: 7px solid #4856CE;
-      box-shadow: -5px -5px 10px rgba(136, 230, 169, 0.2), 10px 10px 20px rgba(0, 0, 0, 0.5);
-      border-radius: 10px;
-      left: 50px;
-      margin: 0 auto; }
-    .hero .ready-container {
-      padding-right: 20px;
-      padding-left: 20px; }
-      .hero .ready-container .ready-header {
+      .lower-section .container .block {
+        width: 315px;
+        height: 680px;
+        background: linear-gradient(169.11deg, #4856CE 3.51%, #30314B 100%);
+        border: 7px solid #4856CE;
+        box-shadow: -5px -5px 10px rgba(136, 230, 169, 0.2), 10px 10px 20px rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        left: 50px;
+        margin: 0 auto; }
+
+  .final-section {
+    position: relative;
+    color: #fff; }
+    .final-section .container {
+      padding-left: 20px;
+      padding-right: 20px; }
+      .final-section .container .title {
         font-size: 60px; }
-      .hero .ready-container .btn {
+      .final-section .container .btn {
         width: 100%;
         display: flex;
         justify-content: flex-start;
@@ -118,15 +128,14 @@ body {
         padding-bottom: 17px;
         line-height: 27px;
         margin-bottom: 45px; }
-      .hero .ready-container .desc {
+      .final-section .container .description {
         font-size: 25px; }
-    .hero .wrapper-blops-6 {
+    .final-section .wrapper--blop-6 {
       position: absolute;
-      padding-top: 85px;
-      margin-bottom: 0; }
-    .hero .wrapper-blops-7 {
+      bottom: -250px; }
+    .final-section .wrapper--blop-7 {
       position: absolute;
-      padding-left: 177px;
-      padding-top: 27px; } }
+      bottom: -250px;
+      right: 0; } }
 
 /*# sourceMappingURL=style.css.map */

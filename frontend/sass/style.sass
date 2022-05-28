@@ -1,41 +1,44 @@
 $background-color: #2C2D44
-$paragrpa-size: 45px
+$paragrpa-size: 25px
+$title-size: 60px
 body
+    overflow-x: hidden 
     font-family: 'Comfortaa', cursive
     margin: 0 !important
     letter-spacing: 1.2px 
     background-color: $background-color
 @media screen and (max-width: 420px)
-    .hero
+    .hero-section
         color: #fff
         .wrapper--logo
             position: absolute
             top: 0
             left: 0
             z-index: -1
-        .wrapper--blops-1
+        .wrapper--blop-1
             position: absolute
             top: 0
             right: 0
             z-index: -1
-        .wrapper--blops-2
+        .wrapper--blop-2
             position: absolute
             left: -110px
             z-index: -1
         .container
-            padding-right: 20px
             padding-left: 20px
+            padding-right: 20px
             padding-top: 330px
             .logo 
-                margin-left: -40px
                 display: flex
                 justify-content: center
                 align-items: center
 
-                .logo-text
+                margin-left: -40px
+
+                .logo--text
                     font-size: 60px
             .description
-                font-size: $paragrpa-size
+                font-size: 45px
                 margin: 0
                 padding-bottom: 135px
         .paragraph
@@ -45,15 +48,16 @@ body
             left: 50%
             margin-right: -50%
             transform: translate(-50%, -50%)
-        .info-container
-            padding-right: 20px
+    .info-section
+        color: #fff
+        .container
             padding-left: 20px
+            padding-right: 20px
             padding-top: 320px
-            .info-header
-                font-size: 60px
-            .info-description-1,
-            .info-description-2
-                font-size: 25px
+            .title
+                font-size: $title-size
+            .description
+                font-size: $paragrpa-size
             .btn
                 width: 100%
 
@@ -72,41 +76,46 @@ body
                 padding-top: 17px
                 padding-bottom: 17px
                 line-height: 27px
-        .wrapper-blops-3
+        .wrapper--blop-3
             position: absolute
-            left: 165px
-        .wrapper-blops-4
-            position: absolute
+            left: 163px
+        .wrapper--blop-4
             padding-top: 200px
-            left: 230px
-            z-index: -1
-        .wrapper-blops-5
             position: absolute
             z-index: -1
+            left: 225px
+        .wrapper--blop-5
             padding-top: 450px
+            position: absolute
+            z-index: -1
             left: -120px
-        .lower-info-container
+    .lower-section
+        color: #fff
+        .container
             padding-left: 20px
             padding-right: 20px
             padding-top: 540px
-            .lower-info-header
-                font-size: 60px
-            .lower-info-desc
-                font-size: 25px
-        .block
-            width: 315px
-            height: 680px
-            background: linear-gradient(169.11deg, #4856CE 3.51%, #30314B 100%)
-            border: 7px solid #4856CE
-            box-shadow: -5px -5px 10px rgba(136, 230, 169, 0.2), 10px 10px 20px rgba(0, 0, 0, 0.5)
-            border-radius: 10px
-            left: 50px
-            margin: 0 auto
-        .ready-container
-            padding-right: 20px
+            .title
+                font-size: $title-size
+            .description
+                font-size: $paragrpa-size
+            .block
+                width: 315px
+                height: 680px
+                background: linear-gradient(169.11deg, #4856CE 3.51%, #30314B 100%)
+                border: 7px solid #4856CE
+                box-shadow: -5px -5px 10px rgba(136, 230, 169, 0.2), 10px 10px 20px rgba(0, 0, 0, 0.5)
+                border-radius: 10px
+                left: 50px
+                margin: 0 auto
+    .final-section
+        position: relative
+        color: #fff
+        .container
             padding-left: 20px
-            .ready-header
-                font-size: 60px
+            padding-right: 20px
+            .title 
+                font-size: $title-size
             .btn
                 width: 100%
 
@@ -127,13 +136,12 @@ body
                 line-height: 27px
 
                 margin-bottom: 45px
-            .desc 
-                font-size: 25px
-        .wrapper-blops-6
+            .description
+                font-size: $paragrpa-size
+        .wrapper--blop-6
             position: absolute
-            padding-top: 85px
-            margin-bottom: 0
-        .wrapper-blops-7
+            bottom: -250px
+        .wrapper--blop-7
             position: absolute
-            padding-left: 177px
-            padding-top: 27px
+            bottom: -250px
+            right: 0
