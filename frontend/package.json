@@ -17,6 +17,7 @@
 	"type": "module",
 	"dependencies": {
 		"chart.js": "^3.8.0",
+		"cookie": "^0.5.0",
 		"dotenv": "^16.0.1",
 		"jsonwebtoken": "^8.5.1",
 		"pouchdb": "^7.3.0",
