@@ -14,5 +14,12 @@
 		"@types/cookie-parser": "^1.4.3",
 		"svelte": "^3.46.1"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"chart.js": "^3.8.0",
+		"dotenv": "^16.0.1",
+		"jsonwebtoken": "^8.5.1",
+		"pouchdb": "^7.3.0",
+		"pouchdb-authentication": "^1.1.3"
+	}
 }
