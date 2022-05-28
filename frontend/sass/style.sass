@@ -1,147 +1,72 @@
-$background-color: #2C2D44
-$paragrpa-size: 25px
-$title-size: 60px
+$shadows: box-shadow: -5px -5px 10px #88e6a933, 10px 10px 20px #00000080
+$accentColor: #88E6A9
+$primaryColor: #4856cebf
+$linearGradient: linear-gradient(95.19deg, #4856ce33 21.79%, #2c2d4433 102.81%), #2C2D44
+
+    
+*
+    color: white
+    margin: 0
+    padding: 0
+    font-family: 'Comfortaa', sans-serif
+
+
 body
-    overflow-x: hidden 
-    font-family: 'Comfortaa', cursive
-    margin: 0 !important
-    letter-spacing: 1.2px 
-    background-color: $background-color
-@media screen and (max-width: 420px)
-    .hero-section
-        color: #fff
-        .wrapper--logo
-            position: absolute
-            top: 0
-            left: 0
-            z-index: -1
-        .wrapper--blop-1
-            position: absolute
-            top: 0
-            right: 0
-            z-index: -1
-        .wrapper--blop-2
-            position: absolute
-            left: -110px
-            z-index: -1
-        .container
-            padding-left: 20px
-            padding-right: 20px
-            padding-top: 330px
-            .logo 
-                display: flex
-                justify-content: center
-                align-items: center
+    margin: 0
 
-                margin-left: -40px
 
-                .logo--text
-                    font-size: 60px
-            .description
-                font-size: 45px
-                margin: 0
-                padding-bottom: 135px
-        .paragraph
-            font-size: 25px
-            position: absolute
-            padding-top: 220px
-            left: 50%
-            margin-right: -50%
-            transform: translate(-50%, -50%)
-    .info-section
-        color: #fff
-        .container
-            padding-left: 20px
-            padding-right: 20px
-            padding-top: 320px
-            .title
-                font-size: $title-size
-            .description
-                font-size: $paragrpa-size
-            .btn
-                width: 100%
+section
+    padding: 0px 20px
+    display: relative
+    padding-bottom: 200px
 
-                display: flex
-                justify-content: flex-start
-                align-items: center
+    &.hero
+        height: 100vh
+        display: flex
+        align-content: center
+    
 
-                color: #fff
-                background: rgba(72, 86, 206, 0.75) 
-                box-shadow: 5px 5px 10px rgba(72, 86, 206, 0.2), -5px -5px 10px rgba(136, 230, 169, 0.1)
-                border-radius: 5px
-                border: none
 
-                font-size: 25px
-                padding-left: 20px
-                padding-top: 17px
-                padding-bottom: 17px
-                line-height: 27px
-        .wrapper--blop-3
-            position: absolute
-            left: 163px
-        .wrapper--blop-4
-            padding-top: 200px
-            position: absolute
-            z-index: -1
-            left: 225px
-        .wrapper--blop-5
-            padding-top: 450px
-            position: absolute
-            z-index: -1
-            left: -120px
-    .lower-section
-        color: #fff
-        .container
-            padding-left: 20px
-            padding-right: 20px
-            padding-top: 540px
-            .title
-                font-size: $title-size
-            .description
-                font-size: $paragrpa-size
-            .block
-                width: 315px
-                height: 680px
-                background: linear-gradient(169.11deg, #4856CE 3.51%, #30314B 100%)
-                border: 7px solid #4856CE
-                box-shadow: -5px -5px 10px rgba(136, 230, 169, 0.2), 10px 10px 20px rgba(0, 0, 0, 0.5)
-                border-radius: 10px
-                left: 50px
-                margin: 0 auto
-    .final-section
-        position: relative
-        color: #fff
-        .container
-            padding-left: 20px
-            padding-right: 20px
-            .title 
-                font-size: $title-size
-            .btn
-                width: 100%
+.container
+    max-width: 1040px
+    width: 100%
+    margin: 0px auto
 
-                display: flex
-                justify-content: flex-start
-                align-items: center
 
-                color: #fff
-                background: rgba(72, 86, 206, 0.75) 
-                box-shadow: 5px 5px 10px rgba(72, 86, 206, 0.2), -5px -5px 10px rgba(136, 230, 169, 0.1)
-                border-radius: 5px
-                border: none
+.logo
+    display: flex
 
-                font-size: 25px
-                padding-left: 20px
-                padding-top: 17px
-                padding-bottom: 17px
-                line-height: 27px
 
-                margin-bottom: 45px
-            .description
-                font-size: $paragrpa-size
-        .wrapper--blop-6
-            position: absolute
-            bottom: -250px
-        .wrapper--blop-7
-            position: absolute
-            bottom: -250px
-            right: 0
+h2
+    font-size: 60px
+    margin-bottom: 55px
+
+
+h3
+    font-size: 24px
+
+
+p
+    font-size: 18px
+    margin-bottom: 30px
+
+
+// Hero
+.hero--mockup-wrap
+    display: absolute
+    right: 0
+    margin: auto 0
+    img
+        width: 100%
+
+
+// Two blocks
+.two-blocks-wrap
+    display: flex
+    justify-content: space-between
+    &.70-30
+        .bloc
+            width: 30%
+        
+        &:first-child
+            width: 70%
