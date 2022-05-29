@@ -12,10 +12,9 @@
                 </div>
             </div>
             <div class="block">
-                <form action="/signup" method="post">
-                    <input type="text" placeholder="Login">
-                    <input type="password" placeholder="Password">
-                    <input type="password" placeholder="Password">
+                <form on:submit|preventDefault={formSubmit}>
+                    <input type="text" placeholder="Login" name="login">
+                    <input type="password" placeholder="Password" name="pwd">
                     <input type="submit"  value="Submit">
                 </form>
             </div>
@@ -25,3 +24,16 @@
         <img src="image/blue_wave.png" alt="">
     </div>
 </section>
+
+<script>
+const formSubmit = async (data) => {
+    const formData = new FormData(data.currentTarget);
+    const res = await fetch("/api/user/auth", {
+        method: "POST",
+        body: formData,
+    });
+    if (res.redirected) {
+        session.result = true
+    }
+};
+</script>

@@ -3,7 +3,7 @@
     "_id": 20,
     "doc": {
         "login": "Login",
-        "password": "password",
+        "pwd": "password",
         "rub": 200,
         "wallets": [
             {

@@ -18,6 +18,8 @@
 	"dependencies": {
 		"chart.js": "^3.8.0",
 		"cookie": "^0.5.0",
-		"pouchdb": "^7.3.0"
+		"jsonwebtoken": "^8.5.1",
+		"pouchdb": "^7.3.0",
+		"uuid": "^8.3.2"
 	}
 }

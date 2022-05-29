@@ -5,22 +5,15 @@
  * Handling that use does't have cookie setted, Put here in future
  * check of headers
  */
-/* export async function load({ session }) {
-    if (!session?.user) {
+export async function load({session}) {
+    if (!session?.result) {
         return {
             status: 302,
             redirect: "/signup"
         }
     }
     return {
-        status: 200,
-        props: {
-            user: session.user
-        }
+        status: 200
     };
-}; */
-</script>
-
-<script>
-    let user;
+};
 </script>
