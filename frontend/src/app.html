@@ -2,11 +2,20 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Sources -->
+		<link async rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<link async rel="stylesheet" href="%sveltekit.assets%/css/style.css" />
+		<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap" rel="stylesheet">
+
+		<!-- SEO -->
+		<meta name="description" content="Enigma is next step in crypto marketplaces">
+
 		%sveltekit.head%
 	</head>
 	<body>
-		<div>%sveltekit.body%</div>
+		%sveltekit.body%
+		<script async src="node_modules/pouchdb/dist/pouchdb.min.js"></script>
 	</body>
 </html>

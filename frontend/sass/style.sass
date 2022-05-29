@@ -1,0 +1,252 @@
+$shadows: -5px -5px 10px #88e6a933, 10px 10px 20px #00000080
+$accentColor: #88E6A9
+$primaryColor: #4856cebf
+$backgroundColor: #2C2D44
+$linearGradient: linear-gradient(95.19deg, #4856ce33 21.79%, #2c2d4433 102.81%), #2C2D44
+
+    
+*
+    color: white
+    margin: 0
+    padding: 0
+    font-size: 18px
+    font-family: 'Comfortaa', sans-serif
+
+
+body
+    margin: 0
+    background: $backgroundColor
+    overflow-x: hidden
+
+
+section
+    padding: 0px 20px
+    position: relative
+    padding-bottom: 200px
+
+    &.hero
+        height: 100vh
+        display: flex
+        align-items: center
+        padding: 0
+
+        &.singlton
+            overflow: hidden
+    
+    &.index
+        padding-top: 200px
+    
+    &.over
+        margin-top: -100px
+        z-index: 0
+
+
+.container
+    max-width: 1040px
+    width: 100%
+    margin: 0px auto
+
+    .half
+        width: 40%
+    
+    &.card
+        z-index: 5
+        position: relative
+        background: $backgroundColor
+        padding: 20px
+        box-shadow: $shadows
+
+
+.logo
+    display: flex
+
+
+h1
+    font-size: 24px
+
+
+h2
+    font-size: 60px
+    margin-bottom: 55px
+
+
+h3
+    font-size: 24px
+
+
+p
+    font-size: 18px
+    margin-bottom: 30px
+    &.big
+        font-size: 25px
+
+form
+    display: flex
+    flex-direction: column
+    padding: 30px 5px
+    background: $backgroundColor
+    box-shadow: 0px 5px 10px #00000040
+    border-radius: 5px
+
+    input
+        outline: none
+        padding: 5px 20px
+        background: $backgroundColor
+        border-radius: 5px
+        border: none
+        box-shadow: 0px 5px 10px #00000040
+        margin-bottom: 20px
+
+
+
+// Hero
+.hero--mockup-wrap
+    position: absolute
+    top: auto
+    left: auto
+    right: 0
+    bottom: auto
+    margin: auto 0
+    img
+        width: 100%
+
+// Abs pattern
+.left--aligned
+    position: absolute
+
+.blob
+    position: absolute
+    top: auto
+    left: auto
+    right: auto
+    bottom: auto
+
+    &.tl
+        top: -70px
+        left: -40px
+
+// Blue wave
+.blue_wave
+    top: auto
+    bottom: 0
+    position: absolute
+    &.group
+        bottom: -80px
+
+// logo
+.inline-logo
+    display: flex
+    font-size: 55px
+    align-items: center
+
+
+// Button
+button
+    padding: 10px 20px
+    font-size: 18px
+    background: $primaryColor
+    border-radius: 5px
+    border: none
+    min-width: 365px
+    box-shadow: 0px 5px 10px #00000040
+
+
+// Two blocks
+.two-blocks
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+    .block
+        width: 40%
+
+
+.centered
+    margin: 0px auto
+    margin-top: 50px
+
+    &.foo
+        max-width: 500px
+
+    img
+        width: 100%
+
+
+.scrollar-wrap
+    position: relative
+    width: 100%
+    min-height: 220px
+
+    .scrollar
+        padding: 25px
+        display: flex
+        position: absolute
+        max-width: 1040px
+        overflow-x: scroll
+
+
+.wallet-wrap
+    padding: 15px
+    background: $backgroundColor
+    min-width: 345px
+    min-height: 190px
+    border-radius: 5px
+    box-shadow: 0px 5px 10px #00000040
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    margin-left: 20px
+
+
+.coin-badge-wrap
+    padding: 10px
+    background: $backgroundColor
+    box-shadow: $shadows
+    width: 150px
+    margin-right: 20px
+
+    p
+        margin: 5px
+    
+    .coin-nam-wrap
+        display: flex
+        justify-content: space-between
+        align-items: center
+        p
+            margin: 0
+    
+    .breaker
+        margin: 22px 0px
+        background: #FFFFFF25
+        height: 5px
+        border-radius: 5px
+    
+    .costage--income-wrap
+        display: flex
+        .income--wrap
+            margin-right: 5px
+    
+    .costage--plus
+        color: $accentColor
+
+
+.header--card
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    width: 100%
+    height: 100%
+    box-shadow: inset 0px -5px 10px #00000040
+
+    img
+        width: 100%
+        height: 100%
+        object-fit: cover
+
+.grid-4
+    display: grid
+    grid-template-columns: repeat(5, 1fr)
+    .coin-badge-wrap
+        margin: 0

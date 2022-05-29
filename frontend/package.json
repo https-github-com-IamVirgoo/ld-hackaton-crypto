@@ -1,6 +1,6 @@
 {
-	"name": "frontend",
-	"version": "0.0.1",
+	"name": "ld-crypto",
+	"version": "0.5.0",
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
@@ -11,12 +11,15 @@
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
-		"svelte": "^3.46.0"
+		"@types/cookie-parser": "^1.4.3",
+		"svelte": "^3.46.1"
 	},
 	"type": "module",
 	"dependencies": {
-		"@fontsource/fira-mono": "^4.5.0",
-		"cookie": "^0.4.1",
-		"pouchdb": "^7.3.0"
+		"chart.js": "^3.8.0",
+		"cookie": "^0.5.0",
+		"jsonwebtoken": "^8.5.1",
+		"pouchdb": "^7.3.0",
+		"uuid": "^8.3.2"
 	}
 }

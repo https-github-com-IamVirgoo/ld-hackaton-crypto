@@ -1,0 +1,26 @@
+{
+    // Pouch db
+    "_id": 20,
+    "doc": {
+        "login": "Login",
+        "pwd": "password",
+        "rub": 200,
+        "wallets": [
+            {
+                "name": "Wallet name",
+                "value": 200.00000,
+                "coin": "btc"
+            }
+        ],
+        "sessions": [
+            "jwt-via-_id-place-here"
+        ],
+        "transactions": [
+            {
+                "timestamp": "",
+                "income": -200,
+                "name": "btc"
+            }
+        ]
+    }
+}

@@ -1,4 +1,4 @@
-<title>Enigma | Login</title>
+<title>Enigma | Signup</title>
 
 <section class="hero singlton">
     <div class="left--aligned">
@@ -15,7 +15,7 @@
                 <form on:submit|preventDefault={formSubmit}>
                     <input type="text" placeholder="Login" name="login">
                     <input type="password" placeholder="Password" name="pwd">
-                    <input type="submit" value="Submit">
+                    <input type="submit"  value="Submit">
                 </form>
             </div>
         </div>
@@ -24,12 +24,16 @@
         <img src="image/blue_wave.png" alt="">
     </div>
 </section>
+
 <script>
-    const formSubmit = async (data) => {
-        console.log(data);
-        const formData = new FormData(data.currentTarget);
-        const res = await fetch("/api/user/auth", {
-            body: formData,
-        });
-    };
-    </script>
+const formSubmit = async (data) => {
+    const formData = new FormData(data.currentTarget);
+    const res = await fetch("/api/user/auth", {
+        method: "POST",
+        body: formData,
+    });
+    if (res.redirected) {
+        session.result = true
+    }
+};
+</script>
